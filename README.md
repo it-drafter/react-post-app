@@ -38,5 +38,5 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm start
 ```
