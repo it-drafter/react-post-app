@@ -26,7 +26,7 @@ Download .zip with all included files and folders, or clone the project:
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd react-post-app
 ```
 
 Install dependencies
