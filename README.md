@@ -12,7 +12,7 @@ In this mini-project, I used:
 - 'moment' library to make working with dates as easy as possible
 - a touch of Bootstrap styling
 
-This app is very similar to [the one](https://github.com/it-drafter/vue-movie-catalogue-app) I build in Vue. Same logic - different tool.
+This app is very similar to [the one I build in Vue](https://github.com/it-drafter/vue-movie-catalogue-app). Same logic - different tool.
 
 ## Demo
 
