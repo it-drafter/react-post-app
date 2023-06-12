@@ -3,6 +3,7 @@
 This is a basic posting app built with REACT.
 
 In this mini-project, I used:
+
 - functional 'arrow' components
 - useState, useEffect and useRef hooks
 - 'axios' library to work with GET, POST and DELETE requests,
@@ -15,7 +16,7 @@ This app is very similar to [the one](https://github.com/it-drafter/vue-movie-ca
 
 ## Demo
 
-You can try it out [HERE](http://drafter.atwebpages.com/react-post-app/).
+You can try it out [HERE](https://it-drafter.github.io/react-post-app/).
 
 ## Run Locally
 
