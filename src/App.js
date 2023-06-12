@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from "react";
-import CircleLoader from "react-spinners/CircleLoader";
-import axios from "axios";
-import Form from "./components/Form";
-import Post from "./components/Post";
+import React, { useState, useEffect } from 'react';
+import CircleLoader from 'react-spinners/CircleLoader';
+import axios from 'axios';
+import Form from './components/Form';
+import Post from './components/Post';
 
 const App = () => {
   const [posts, setPosts] = useState([]);
@@ -14,7 +14,7 @@ const App = () => {
   }, []);
 
   const url =
-    "https://react-post-app-d2cbb-default-rtdb.europe-west1.firebasedatabase.app/post.json";
+    'https://react-post-app-d2cbb-default-rtdb.europe-west1.firebasedatabase.app/post.json';
 
   const getPosts = () => {
     axios
@@ -51,8 +51,8 @@ const App = () => {
 
   if (loading) {
     return (
-      <div className="loader-container">
-        <CircleLoader size={100} color="blue" />
+      <div className='loader-container'>
+        <CircleLoader size={100} color='blue' />
       </div>
     );
   }
@@ -81,14 +81,14 @@ const App = () => {
 
   return (
     <React.Fragment>
-      <h1 className="heading">REACT Post App</h1>
+      <h1 className='heading'>REACT Post App</h1>
 
-      <p className="json-info">
+      <p className='json-info'>
         Raw JSON (hosted in a Firebase Realtime Database):
         <br />
         <a
-          href="https://react-post-app-d2cbb-default-rtdb.europe-west1.firebasedatabase.app/post.json"
-          target="_blank"
+          href='https://react-post-app-d2cbb-default-rtdb.europe-west1.firebasedatabase.app/post.json'
+          target='_blank'
         >
           https://react-post-app-d2cbb-default-rtdb.europe-west1.firebasedatabase.app/post.json
         </a>
@@ -97,7 +97,7 @@ const App = () => {
       <Form onNewPostSubmit={newPostHandler} />
 
       {posts.length === 0 ? (
-        <p className="json-info">No posts!</p>
+        <p className='json-info'>No posts!</p>
       ) : (
         <ul>
           {posts.map((el) => (
@@ -106,8 +106,8 @@ const App = () => {
         </ul>
       )}
 
-      <footer className="footer">
-        <p>Coded by drafter</p>
+      <footer className='footer'>
+        <p>Coded by it-drafter</p>
         <p>March 2023.</p>
       </footer>
     </React.Fragment>
